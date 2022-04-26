@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkingSpace\\ProgramingSpace\\CSharp\\DotNet\\APIEducation\\APIEducation\\APIEducation.csproj": {}
+    "D:\\PROGRAMING\\CSHARP\\DotNet\\APIEducation\\Education\\APIEducation.csproj": {}
   },
   "projects": {
-    "C:\\WorkingSpace\\ProgramingSpace\\CSharp\\DotNet\\APIEducation\\APIEducation\\APIEducation.csproj": {
+    "D:\\PROGRAMING\\CSHARP\\DotNet\\APIEducation\\Education\\APIEducation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkingSpace\\ProgramingSpace\\CSharp\\DotNet\\APIEducation\\APIEducation\\APIEducation.csproj",
+        "projectUniqueName": "D:\\PROGRAMING\\CSHARP\\DotNet\\APIEducation\\Education\\APIEducation.csproj",
         "projectName": "APIEducation",
-        "projectPath": "C:\\WorkingSpace\\ProgramingSpace\\CSharp\\DotNet\\APIEducation\\APIEducation\\APIEducation.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkingSpace\\ProgramingSpace\\CSharp\\DotNet\\APIEducation\\APIEducation\\obj\\",
+        "projectPath": "D:\\PROGRAMING\\CSHARP\\DotNet\\APIEducation\\Education\\APIEducation.csproj",
+        "packagesPath": "C:\\Users\\Tien\\.nuget\\packages\\",
+        "outputPath": "D:\\PROGRAMING\\CSHARP\\DotNet\\APIEducation\\Education\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tien\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.4, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

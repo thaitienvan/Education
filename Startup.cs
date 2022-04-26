@@ -1,5 +1,6 @@
 
 using APIEducation.Models;
+using APIEducation.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -25,12 +26,12 @@ namespace APIEducation
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<EducationContext>(options => options.UseSqlServer(Configuration.GetConnectionString("EducationDatabase")));
-            services.AddControllers();
+           
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Zomato API",
+                    Title = "API Educaiton API",
                     Version = "v1",
                     Description = "Description for the API goes here.",
                     Contact = new OpenApiContact
@@ -41,6 +42,8 @@ namespace APIEducation
                     },
                 });
             });
+            services.AddSingleton<ILoggerService, LoggerService>();
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
